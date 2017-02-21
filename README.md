@@ -2,6 +2,8 @@
 
 Library, a kind of auxiliary tool to Android development, applies to rapid development. It means to reduce duplication of work and increase of efficiency.
 
+Android开发辅助工具类Library，用于快速开发，以便减少做重复的工作，提高开发效率。
+
 # Gradle
 
 	compile 'net.smartbetter:utilslibrary:0.0.1'
