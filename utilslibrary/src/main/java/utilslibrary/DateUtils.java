@@ -43,8 +43,7 @@ public class DateUtils {
 
     /**
      * 获取日期
-     *
-     * @param
+     * @param time
      * @return
      */
     public String getTime(long time) {
@@ -56,7 +55,7 @@ public class DateUtils {
     /**
      * 使指定日期向前走一天，变成“明天”的日期
      *
-     * @param cal 等处理日期
+     * @param cal 处理日期
      */
     public void forward(Calendar cal) {
         int year = cal.get(Calendar.YEAR);

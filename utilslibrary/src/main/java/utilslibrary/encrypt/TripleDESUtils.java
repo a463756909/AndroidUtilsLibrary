@@ -74,7 +74,6 @@ public class TripleDESUtils {
      * @param data
      * @param key
      * @return
-     * @throws Exception
      */
     public static byte[] encrypt(byte[] data, byte[] key) {
         SecretKey secretKey = new SecretKeySpec(key, "DESede");
@@ -103,7 +102,6 @@ public class TripleDESUtils {
      * @param data
      * @param key
      * @return
-     * @throws Exception
      */
     public static byte[] decrypt(byte[] data, byte[] key) {
         SecretKey secretKey = new SecretKeySpec(key, "DESede");

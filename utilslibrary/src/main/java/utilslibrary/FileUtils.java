@@ -119,10 +119,9 @@ public class FileUtils {
     /**
      * 保存Bitmap到指定目录
      *
-     * @param dir      目录
+     * @param dir 目录
      * @param fileName 文件名
      * @param bitmap
-     * @throws IOException
      */
     public static void saveBitmap(File dir, String fileName, Bitmap bitmap) {
         if (bitmap == null) {
@@ -143,7 +142,7 @@ public class FileUtils {
     /**
      * 判断某目录下文件是否存在
      *
-     * @param dir      目录
+     * @param dir 目录
      * @param fileName 文件名
      * @return
      */
